@@ -246,7 +246,7 @@ export const getGatewayAddress = async (network: RenNetworkDetails, web3: Web3, 
         const registry = new web3.eth.Contract(network.addresses.gateways.GatewayRegistry.abi, network.addresses.gateways.GatewayRegistry.address);
         return await registry.methods.getGatewayBySymbol(getTokenName(tokenOrContract)).call();
     } catch (error) {
-        (error || {}).error = `Error looking up ${tokenOrContract}Gateway address: ${error.message}`;
+        (error || {}).error = `Error looking up ${tokenOrContract} gateway address: ${error.message}`;
         throw error;
     }
 };
