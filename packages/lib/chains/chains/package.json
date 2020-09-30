@@ -41,9 +41,9 @@
         "unlink:all": "(yarn unlink || true)"
     },
     "dependencies": {
-        "@renproject/chains-bitcoin": "file:../chains-bitcoin",
-        "@renproject/chains-ethereum": "file:../chains-ethereum",
-        "@renproject/interfaces": "file:../../interfaces"
+        "@renproject/chains-bitcoin": "^2.0.0-alpha.7",
+        "@renproject/chains-ethereum": "^2.0.0-alpha.7",
+        "@renproject/interfaces": "^2.0.0-alpha.7"
     },
     "resolutions": {
         "sha3": "^2.1.2"
