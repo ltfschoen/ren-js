@@ -6,10 +6,5 @@
         "./packages/lib/*",
         "./packages/ui/multiwallet-ui",
         "./packages/ui/react-components"
-    ],
-    "command": {
-        "publish": {
-            "registry": "https://npm.pkg.github.com"
-        }
-    }
+    ]
 }

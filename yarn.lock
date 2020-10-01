@@ -3101,6 +3101,44 @@
     "@renproject/sol" "^1.0.1"
     web3-utils "^2.0.0-alpha.1"
 
+"@renproject/provider@^2.0.0-alpha.7":
+  version "2.0.0-alpha.7"
+  resolved "https://registry.yarnpkg.com/@renproject/provider/-/provider-2.0.0-alpha.7.tgz#11b91e8d1ea389b258127546e927de560986f769"
+  integrity sha512-CDUgFXZYN0moSYTLVPOnrJQm08XAl3l/GjCzTLMiPthVdYr5oosvfS7z9guM6pQbjhKw6r7xKxXdT4F8VP4fYw==
+  dependencies:
+    "@renproject/interfaces" "^2.0.0-alpha.7"
+    "@renproject/utils" "^2.0.0-alpha.7"
+    "@types/node" "^14.11.1"
+    axios "^0.20.0"
+    immutable "^4.0.0-rc.12"
+
+"@renproject/ren@^2.0.0-alpha.7":
+  version "2.0.0-alpha.7"
+  resolved "https://registry.yarnpkg.com/@renproject/ren/-/ren-2.0.0-alpha.7.tgz#caa2a27ca0629ae8cf98f95f09cd5c591d4dbf12"
+  integrity sha512-33hq+7hZab+UVk+8UHPNBIvTmphUKcNHXroeCOa2xqKdbEFkLzlk7QHVsiGPis1VOflrYwKNcKB8vj3U2tiClA==
+  dependencies:
+    "@renproject/interfaces" "^2.0.0-alpha.7"
+    "@renproject/networks" "^2.0.0-alpha.7"
+    "@renproject/provider" "^2.0.0-alpha.7"
+    "@renproject/rpc" "^2.0.0-alpha.7"
+    "@renproject/utils" "^2.0.0-alpha.7"
+    "@types/node" "^14.11.1"
+    bignumber.js "^9.0.0"
+    immutable "^4.0.0-rc.12"
+    web3-eth-abi "^2.0.0-alpha.1"
+
+"@renproject/rpc@^2.0.0-alpha.7":
+  version "2.0.0-alpha.7"
+  resolved "https://registry.yarnpkg.com/@renproject/rpc/-/rpc-2.0.0-alpha.7.tgz#49c2c89ab6ee2fac4ca7eef30a9a72cbe7948d2d"
+  integrity sha512-c79FSWgR2+krsd74HFWGxj8b4DM9WFDKkZEaKjnPENpsuag4Ib0Mr12C/G5MhA+ksn1v4EgDjtWNDJZwZ8hu5w==
+  dependencies:
+    "@renproject/interfaces" "^2.0.0-alpha.7"
+    "@renproject/provider" "^2.0.0-alpha.7"
+    "@renproject/utils" "^2.0.0-alpha.7"
+    "@types/node" "^14.11.1"
+    bignumber.js "^9.0.0"
+    immutable "^4.0.0-rc.12"
+
 "@renproject/sol@^1.0.1":
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/@renproject/sol/-/sol-1.0.1.tgz#d103c6d1f54cb4004d7bf6c0fe5cb6f932bfe98f"
